@@ -1,0 +1,81 @@
+body {
+  background: grey;
+  font-size: 1em;
+  font-family: 'Spectral SC', serif;
+}
+input { 
+  text-align: center; 
+}
+.App {
+  text-align: center;
+}
+.about{
+  font-size: 2em;
+  
+}
+.button-container{
+  min-width: 60px;
+ }
+.character{
+  font-size: 1.75em;
+  display: inline-block;
+  min-height: 1.75em;
+  background-color: rgb(51, 204, 51);
+  color: white;
+  vertical-align: middle;
+  border-radius: 5px;
+  font-family: 'Permanent Marker', cursive;
+  margin: 2px 0px;
+}
+.encounter {
+  border-radius: 5px;
+  background-color: white;
+}
+.encounter-list{
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  margin: 10px 0px;
+}
+.feature-list{
+  text-align: left;
+  margin: 5px;
+}
+.nopadding{
+  padding: 0;
+}
+#character-container{
+  background-color: white;
+  /* min-height: 350px; */
+}
+#dice{
+  background-color: white;
+  border-radius: 5px;
+  /* min-height: 350px; */
+  font-size: 2.5em;
+}
+/* Add media queries for dice section height */
+#stuff{
+  /* min-height: 350px; */
+  background-color: white;
+  padding: 0;
+  border-radius: 5px;
+}
+#turnTracker{
+  height: 10px;
+  width: 10px;
+  font-size: 2em;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+  #stuff{
+    min-height: 350px
+  }
+  #dice{
+    background-color: white;
+    border-radius: 5px;
+    /* min-height: 350px; */
+    font-size: 2.5em;
+  }
+  }
